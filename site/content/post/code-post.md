@@ -1,6 +1,6 @@
 ---
 title: "Theme Reference"
-description: "Description of the post"
+description: "All the theme details"
 date: 2017-07-23T16:20:16+02:00
 draft: false
 ---
