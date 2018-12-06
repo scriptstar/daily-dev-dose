@@ -11,6 +11,7 @@ canonifyurls = true
 
 [params]
   description = "A bit of daily developer dose straight to your inbox"
+  tagline = "Concise articles packed with value you can apply in 5 minutes or less"
   cover = "images/cover.jpg"
   author = "Valère JEANTET"
   authorlocation = "Paris, France"
