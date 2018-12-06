@@ -2,30 +2,10 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Daily Dev Dose"
 theme = "hugo-journal"
-disqusShortname = "spf13"
-# Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
-# Define how many posts should appear on a site
-paginate = 10
-canonifyurls = true
+
+[permalinks]
+  post = "/:title/"
 
 [params]
   description = "A bit of daily developer dose straight to your inbox"
   tagline = "Concise articles packed with value you can apply in 5 minutes or less"
-  cover = "images/cover.jpg"
-  author = "Valère JEANTET"
-  authorlocation = "Paris, France"
-  authorwebsite = "http://vjeantet.fr"
-  bio= "my bio"
-  logo = "images/logo.png"
-  googleAnalyticsUserID = "UA-79101-12"
-  # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink = "http://feeds.feedburner.com/..."
-  githubName = "vjeantet"
-  twitterName = "vjeantet"
-  # facebookName = ""
-  # linkedinName = ""
-  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
-  hideHUGOSupport = false
-  [params.social]
-    twitter = "your_twitter"
