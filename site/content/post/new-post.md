@@ -3,6 +3,8 @@ title: New Post
 description: new post description
 date: '2018-12-06T14:47:47+00:00'
 ---
+This is some code written in javascript.
+
 ``` javascript
 function $initHighlight(block, cls) {
   try {
